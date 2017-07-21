@@ -55,7 +55,7 @@ void loop() {
   CircuitPlayground.setPixelColor(5, 255, 255 , 255);
   CircuitPlayground.setPixelColor(6, 255, 255, 255);
   CircuitPlayground.setPixelColor(7,255, 255, 255);
-  CircuitPlayground.setPixelColor(8, 0, 255 , 255);
+  CircuitPlayground.setPixelColor(8, 255, 255 , 255);
   CircuitPlayground.setPixelColor(9, 255, 255, 255);
    //delay 1/10 of a sec
    delay(100);
