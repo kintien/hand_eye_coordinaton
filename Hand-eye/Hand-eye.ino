@@ -60,6 +60,7 @@ int var = 0;
   CircuitPlayground.setPixelColor(7,0, 255, 0);
   CircuitPlayground.setPixelColor(8, 0, 255 , 0);
   CircuitPlayground.setPixelColor(9, 0, 255, 0);
+    CircuitPlayground.playTone(500, 100);
   var = 1;
   }
   else{
@@ -83,6 +84,5 @@ int var = 0;
     
     
     }
-
 
 
