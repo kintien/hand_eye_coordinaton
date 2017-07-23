@@ -3,7 +3,7 @@
 int value;
 
 void setup() {
- //initialize srial monitore 
+ //initialize serial monitor 
   Serial.begin(9600);
 //start the circuit playground  
   CircuitPlayground.begin();
@@ -60,12 +60,12 @@ int var = 0;
   CircuitPlayground.setPixelColor(7,0, 255, 0);
   CircuitPlayground.setPixelColor(8, 0, 255 , 0);
   CircuitPlayground.setPixelColor(9, 0, 255, 0);
-    CircuitPlayground.playTone(500, 100);
+  CircuitPlayground.playTone(500, 100);
   var = 1;
   }
   else{
-      //turn all pixels on the pixels ring red
-      CircuitPlayground.setPixelColor(0, 63,   0,   0);
+   //turn all pixels on the pixels ring red
+  CircuitPlayground.setPixelColor(0, 63,   0,   0);
   CircuitPlayground.setPixelColor(1, 63, 0,   0);
   CircuitPlayground.setPixelColor(2,   63, 0,   0);
   CircuitPlayground.setPixelColor(3,   63, 0, 0);
