@@ -22,6 +22,20 @@ void setup() {
   CircuitPlayground.setPixelColor(9, 255, 255, 255);
    //delay 1/10 of a sec
    
+   delay(1000);
+
+}
+
+
+
+
+
+
+
+void loop() {
+//starts the neopixels and clears all the colors  
+  CircuitPlayground.clearPixels();
+//make the value the light sensor recieves assign it to variable value  
 int lightRecieved = CircuitPlayground.lightSensor();
 if(lightRecieved > 900 and lightRecieved < 1000){ turnpoint = 600;}
 if(lightRecieved > 800 and lightRecieved < 899){ turnpoint = 500;}
@@ -38,21 +52,6 @@ if(lightRecieved > 15 and lightRecieved < 29){ turnpoint = 10;}
 if(lightRecieved > 10 and lightRecieved < 14){ turnpoint = 5;}
 if(lightRecieved >= 0 and lightRecieved < 9){ turnpoint = 0;}
 
-
-   delay(1000);
-
-}
-
-
-
-
-
-
-
-void loop() {
-//starts the neopixels and clears all the colors  
-  CircuitPlayground.clearPixels();
-//make the value the light sensor recieves assign it to variable value  
  
 //make a variable x assign a random value between 0-5000
   int x =  random(1000,8000);
